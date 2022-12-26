@@ -19,6 +19,11 @@ public class PlayerMoves : MonoBehaviour
 
     private float constante = 100;
 
+    //Controladores do sistema de chave
+    public Transform pontoParaChaveSeguir;
+
+    public Key chaveSeguindo;
+
     private void Awake() {
         this.direcaoDeMovimento = DirecaoDeMovimento.Direita;
     }
@@ -33,7 +38,8 @@ public class PlayerMoves : MonoBehaviour
 
         AtualizarDirecaoDeMovimento();
 
-        this.rb.velocity = direcao * this.velocidadeDeMovimento * constante * Time.fixedDeltaTime; //Movimento constante em 8 direções
+        this.rb.velocity = direcao * this.velocidadeDeMovimento * constante * Time.fixedDeltaTime; 
+        //Movimento constante em 8 direções
 
     }
 
@@ -44,34 +50,35 @@ public class PlayerMoves : MonoBehaviour
     private void AtualizarDirecaoDeMovimento()
     {
         if (direcao.x > 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Direita;
+            this.direcaoDeMovimento = DirecaoDeMovimento.Direita; //Se olha para a direita
         }else if (direcao.x < 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Esquerda;
+            this.direcaoDeMovimento = DirecaoDeMovimento.Esquerda; //Se olha para a esquerda
         }
 
         if (direcao.y > 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Cima;
-        }else if (direcao.y < 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Baixo;
+            this.direcaoDeMovimento = DirecaoDeMovimento.Cima; //Se olha para cima
+        }
+        else if (direcao.y < 0){
+            this.direcaoDeMovimento = DirecaoDeMovimento.Baixo; //Se olha para baixo
         }
     }
 
     private void AtualizarAnimacao()
     {
         if (direcao.x > 0){
-            this.sprite.flipX = false;
+            this.sprite.flipX = false; //Se olha a direita, "espelha" a sprite para a direita
         }else if (direcao.x < 0)
         {
-            this.sprite.flipX = true;
+            this.sprite.flipX = true; //Se olha a esquerda, "espelha" a sprite para a esquerda
         }
     }
 
     public void AumentarVelocidade (float mudanca){
-        this.velocidadeDeMovimento += Mathf.Abs(mudanca);
+        this.velocidadeDeMovimento += Mathf.Abs(mudanca); //Muda a velocidade de movimento para mais
     }
 
     public void DiminuirVelocidade (float mudanca){
-        this.velocidadeDeMovimento -= Mathf.Abs(mudanca);
+        this.velocidadeDeMovimento -= Mathf.Abs(mudanca); //Musa a velocidade de movimento para menos
     }
 
     
