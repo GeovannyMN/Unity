@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5247207897256153125}
   - component: {fileID: 5247207897256153124}
   - component: {fileID: 5247207897256153127}
+  - component: {fileID: 357686803}
   m_Layer: 0
   m_Name: Porta
   m_TagString: Untagged
@@ -127,3 +128,34 @@ MonoBehaviour:
   spritePortaAberta: {fileID: -1755022975, guid: d2c3e75e91fc8384c9806d645aac2f22, type: 3}
   estaAberta: 0
   esperandoAbrir: 0
+  colliderBarreira: {fileID: 357686803}
+--- !u!60 &357686803
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5247207897256153126}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: -0.49925885, y: 0.89422035}
+      - {x: -0.49851686, y: 0.50745165}
+      - {x: -0.0072698593, y: 0.50745076}
+      - {x: 0.5, y: 0.49285042}
+      - {x: 0.51385915, y: 0.89422035}

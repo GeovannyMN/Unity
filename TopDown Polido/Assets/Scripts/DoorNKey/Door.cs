@@ -17,6 +17,10 @@ public class Door : MonoBehaviour
 
     [SerializeField]
     private bool esperandoAbrir;
+
+    [SerializeField]
+    private PolygonCollider2D colliderBarreira;
+
     void Start()
     {
         pm = FindObjectOfType<PlayerMoves>();
@@ -28,14 +32,20 @@ public class Door : MonoBehaviour
     {
         if (esperandoAbrir)
         {
-            if (Vector2.Distance(pm.chaveSeguindo.transform.position, transform.position) < 0.1f)
-            {
+            //Distância entre a chave e a porta chegou no mínimo
+            if (Vector2.Distance(pm.chaveSeguindo.transform.position, transform.position) < 0.1f) 
+            { 
+                //Muda o estado da porta para aberta, trocando o sprite
                 esperandoAbrir = false;
                 estaAberta = true;
                 sr.sprite = spritePortaAberta;
 
+                //Desativa o objeto chave da cena e aponta o ponteiro da chave para null
                 pm.chaveSeguindo.gameObject.SetActive(false);
                 pm.chaveSeguindo = null;
+
+                //Desativa a barreira no topo da porta para poder passar por ela
+                colliderBarreira.enabled = false;
             }
         }
         //Se a porta está aberta e o player está perto e pressiona a tecla T então
