@@ -21,11 +21,11 @@ public class PlayerPotions : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other) {
         if (((1<<other.gameObject.layer) & layersPocao) != 0){ //Se for uma poção
             if (other.gameObject.CompareTag("Vida")){
-                aplicarVida(valorVidaPocao);    //Adiciona a vida
+                StartCoroutine(aplicarVida(valorVidaPocao));    //Adiciona a vida ao longo do tempo por corrotina
             }else if (other.gameObject.CompareTag("Veneno")){
-                aplicarDano(valorDanoPocao);    //Retira a vida
+                StartCoroutine(aplicarDano(valorDanoPocao));    //Retira a vida ao longo do tempo por corrotina
             }else if (other.gameObject.CompareTag("Velocidade")){
-                StartCoroutine(aplicarNovaVelocidade()); //Usa uma corrotina para mudar a velocidade por 5 segundos  
+                StartCoroutine(aplicarNovaVelocidade()); //Aumenta a velocidade ao longo do tempo por corrotina  
             }
             Destroy(other.gameObject); //Consuma, destrua a poção
         }
@@ -35,25 +35,39 @@ public class PlayerPotions : MonoBehaviour
         PlayerMoves pm = GetComponent<PlayerMoves>(); //Pega o componente de movimento do player
         if (pm != null)
         {
-            pm.AumentarVelocidade(valorVelocidadePocao); //Muda a velocidade de acordo com o parâmetro valorVelocidadePocao
-            yield return new WaitForSecondsRealtime(5f); //Espera 5 segundos de uso
-            pm.DiminuirVelocidade(valorVelocidadePocao); //Desfaz a mudança na velocidade
+            pm.AumentarVelocidade(valorVelocidadePocao/2); //Aumenta 50% do acréscimo de velocidade
+            yield return new WaitForSecondsRealtime(1f); //Espera 1 segundo
+            pm.AumentarVelocidade(valorVelocidadePocao / 2); //Aumenta 100% do acréscimo de velocidade
+            yield return new WaitForSecondsRealtime(2f); //Espera 2 segundos
+            pm.DiminuirVelocidade(valorVelocidadePocao / 2); //Diminui 50% do acréscimo de velocidade
+            yield return new WaitForSecondsRealtime(1f); //Espera 1 segundo
+            pm.DiminuirVelocidade(valorVelocidadePocao/2); //Diminui 100% do acréscimo de velocidade
         }
     }
 
-    private void aplicarVida(float vida){
+   IEnumerator aplicarVida(float vida){
         PlayerLife pf = GetComponent<PlayerLife>(); //Pega o componente de vida do player
         if (pf != null)
         {
-            pf.ReceberVida(vida);
+            for (int i = 0; i < 4; i++)
+            {
+                pf.ReceberVida(vida / 5); //Aplica +20% da cura
+                yield return new WaitForSecondsRealtime(1f); //Espera 1 segundo
+            }
+            pf.ReceberVida(vida / 5); //Aplica os 20% restantes, totalizando 100% da cura
         }
     }
 
-    private void aplicarDano(float dano){
+    IEnumerator aplicarDano(float dano){
         PlayerLife pf = GetComponent<PlayerLife>(); //Pega o componente de vida do player
         if (pf != null)
         {
-            pf.ReceberDano(dano);
+            for (int i = 0; i < 4; i++)
+            {
+                pf.ReceberDano(dano / 5); //Aplica +20% do dano
+                yield return new WaitForSecondsRealtime(1f); //Espera 1 segundo
+            }
+            pf.ReceberDano(dano / 5); //Aplica os 20% restantes, totalizando 100% do dano
         }
     }
 }
