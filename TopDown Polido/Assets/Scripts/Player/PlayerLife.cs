@@ -36,6 +36,7 @@ public class PlayerLife : MonoBehaviour
         this.barraDeVidaP.VidaAtualDoSlider = this.vidaAtualP; //Atualiza no slider o dano sofrido
 
         if (this.vidaAtualP <= 0){
+            soundFX.playSound(sound.DEATH_PLAYER);
             GameObject.Destroy(this.gameObject); //Player morreu
             ReiniciarLevel(); //Após 2 segundos, reinicia a fase
         }else {

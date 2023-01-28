@@ -12,13 +12,13 @@ public class Key : MonoBehaviour
     public Transform alvoSeguir;
 
     private PlayerMoves pm;
-   
+
     void Start()
     {
         pm = FindObjectOfType<PlayerMoves>();
     }
 
-  
+
     void Update()
     {
         if (estaSeguindo)
@@ -34,7 +34,6 @@ public class Key : MonoBehaviour
             if (!estaSeguindo)
             {
                 alvoSeguir = pm.pontoParaChaveSeguir;
-
                 estaSeguindo = true;
                 pm.chaveSeguindo = this;
             }

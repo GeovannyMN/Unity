@@ -10,7 +10,7 @@ public class DialogueNPC : MonoBehaviour
     public string[] dialogo;
     private int indice = 0;
 
-    public GameObject botaoProximoDialogo;
+    //public GameObject botaoProximoDialogo;
     public float velocidadeTexto= 3f;
     public bool pertoParaFalar = false;
 
@@ -33,10 +33,10 @@ public class DialogueNPC : MonoBehaviour
                 StartCoroutine(Digitar());
             }
         }
-        if (textoDialogo.text == dialogo[indice])
-        {
-            botaoProximoDialogo.SetActive(true);
-        }
+        // if (textoDialogo.text == dialogo[indice])
+        // {
+        //     botaoProximoDialogo.SetActive(true);
+        // }
     }
 
     public void limparTela()
@@ -54,10 +54,10 @@ public class DialogueNPC : MonoBehaviour
             yield return new WaitForSecondsRealtime(velocidadeTexto/100);
         }
     }
-
+    
     public void ProximaLinha()
     {
-        botaoProximoDialogo.SetActive(false);
+        //botaoProximoDialogo.SetActive(false);
 
         if (indice < dialogo.Length -1)
         {

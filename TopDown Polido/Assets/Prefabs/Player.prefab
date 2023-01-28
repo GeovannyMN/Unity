@@ -213,7 +213,7 @@ RectTransform:
   m_Children:
   - {fileID: 2374972683441333374}
   m_Father: {fileID: 2374972683768455804}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -351,7 +351,6 @@ Transform:
   - {fileID: 2374972684981912963}
   - {fileID: 2374972684443344273}
   - {fileID: 2374972683655168897}
-  - {fileID: 5900615089130427404}
   - {fileID: 2374972683516903213}
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -472,7 +471,6 @@ MonoBehaviour:
   velocidadeDeMovimento: 5
   direcao: {x: 0, y: 0}
   direcaoDeMovimento: 0
-  pontoParaChaveSeguir: {fileID: 0}
 --- !u!114 &2374972683768455801
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -736,34 +734,3 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &4359650811182767099
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5900615089130427404}
-  m_Layer: 3
-  m_Name: pontoParaChaveSeguir
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5900615089130427404
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4359650811182767099}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.5, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2374972683768455804}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}

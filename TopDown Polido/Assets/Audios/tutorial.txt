@@ -1,0 +1,19 @@
+faltando:
+- corrigir o bug que quando o monstro está perseguindo não toca o som do monstro atacando
+- som de morte do player
+
+localização dos arquivos 
+
+soundFX na pasta assets/scripts
+
+pasta assets/scripts/player
+PlayerAtack 
+PlayerLife
+PlayerPotion
+
+pasta assets/scripts/enemy
+EnemyAttack
+EnemyMoves
+EnemyLife
+
+mais detalhes de configuração no wpp

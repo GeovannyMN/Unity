@@ -38,6 +38,7 @@ public class PlayerAtack : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButtonDown(0)){    //Se apertar o esquerdo do mouse 
+            soundFX.playSound(sound.ATTACK_PLAYER);
             Atacar();                       //Você ataca
         }
     }

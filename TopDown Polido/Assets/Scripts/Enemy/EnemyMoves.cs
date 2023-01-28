@@ -2,8 +2,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+
 public class EnemyMoves : MonoBehaviour
 {
+
+    public Animator animator;
+
+    public EstadosData state;
 
     [SerializeField]
     private Rigidbody2D rb;
@@ -26,6 +32,11 @@ public class EnemyMoves : MonoBehaviour
     private LayerMask layersBuscaveis;
 
     private Transform alvo;
+
+    private void Awake () {
+	animator = GetComponent<Animator>();
+	
+}
 
     void Update()
     {
@@ -56,8 +67,10 @@ public class EnemyMoves : MonoBehaviour
     }
 
     private void Mover (){
+	  
         Vector2 posicaoAlvo = this.alvo.position;
         Vector2 posicaoAtual = this.transform.position;
+        //soundFX.playSound(sound.FOLLOW);
 
         float distanciaAtual = Vector2.Distance(posicaoAtual, posicaoAlvo); //O quão perto o player está
 
@@ -68,6 +81,13 @@ public class EnemyMoves : MonoBehaviour
 
             this.rb.velocity = direcao * velocidadeDeMovimento * constante * Time.fixedDeltaTime; //Se move até ela
 
+             if (distanciaAtual> 3)
+             {
+                state = EstadosData.Moving;
+                animator.SetInteger("estado", (int)state);
+            }
+              
+
             if (this.rb.velocity.x > 0){ //Olha para à direita
                 this.sprite.flipX = false; //Vira o sprite para a direita
             }else if (this.rb.velocity.x < 0){ //Olha para à esquerda
@@ -75,11 +95,16 @@ public class EnemyMoves : MonoBehaviour
             }
         }else{ //Se já chegou no player
             Parar();
+
+  
         }
     }
 
     private void Parar()
     {
+     		
         this.rb.velocity = Vector2.zero; //Para de se mover
+        state = EstadosData.Idle;
+        animator.SetInteger("estado", (int)state);
     }
 }

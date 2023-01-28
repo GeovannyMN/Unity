@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMoves : MonoBehaviour
 {
+    public static bool GameOver = false;
     [SerializeField]
     private Rigidbody2D rb;
 
@@ -19,17 +20,24 @@ public class PlayerMoves : MonoBehaviour
 
     private float constante = 100;
 
-    //Controladores do sistema de chave
+    public Animator animator;
+
     public Transform pontoParaChaveSeguir;
 
     public Key chaveSeguindo;
 
     private void Awake() {
         this.direcaoDeMovimento = DirecaoDeMovimento.Direita;
+        GameOver = false;
     }
 
     void Update()
     {
+        if (GameOver)
+        {
+
+            return;
+        }
         float horizontal = Input.GetAxisRaw("Horizontal");
         float vertical = Input.GetAxisRaw("Vertical");
 
@@ -38,11 +46,20 @@ public class PlayerMoves : MonoBehaviour
 
         AtualizarDirecaoDeMovimento();
 
-        this.rb.velocity = direcao * this.velocidadeDeMovimento * constante * Time.fixedDeltaTime; 
-        //Movimento constante em 8 direções
+        this.rb.velocity = direcao * this.velocidadeDeMovimento * constante * Time.fixedDeltaTime; //Movimento constante em 8 direções
 
+        animator.SetFloat("Horizontal", horizontal);
+        animator.SetFloat("Vertical", vertical);
+        animator.SetFloat("Speed", direcao.sqrMagnitude);
+
+        if(direcao.y > 0){
+            animator.SetFloat("Direction", 1);
+        }else if (direcao.y < 0)
+        {
+            animator.SetFloat("Direction", 0);
+        }
     }
-
+    
     private void LateUpdate() {
         AtualizarAnimacao();
     }
@@ -50,38 +67,34 @@ public class PlayerMoves : MonoBehaviour
     private void AtualizarDirecaoDeMovimento()
     {
         if (direcao.x > 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Direita; //Se olha para a direita
+            this.direcaoDeMovimento = DirecaoDeMovimento.Direita;
         }else if (direcao.x < 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Esquerda; //Se olha para a esquerda
+            this.direcaoDeMovimento = DirecaoDeMovimento.Esquerda;
         }
 
         if (direcao.y > 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Cima; //Se olha para cima
-        }
-        else if (direcao.y < 0){
-            this.direcaoDeMovimento = DirecaoDeMovimento.Baixo; //Se olha para baixo
+            this.direcaoDeMovimento = DirecaoDeMovimento.Cima;
+        }else if (direcao.y < 0){
+            this.direcaoDeMovimento = DirecaoDeMovimento.Baixo;
         }
     }
 
     private void AtualizarAnimacao()
     {
         if (direcao.x > 0){
-            this.sprite.flipX = false; //Se olha a direita, "espelha" a sprite para a direita
+            this.sprite.flipX = false;
         }else if (direcao.x < 0)
         {
-            this.sprite.flipX = true; //Se olha a esquerda, "espelha" a sprite para a esquerda
+            this.sprite.flipX = true;
         }
     }
 
     public void AumentarVelocidade (float mudanca){
-        this.velocidadeDeMovimento += Mathf.Abs(mudanca); //Muda a velocidade de movimento para mais
+        this.velocidadeDeMovimento += Mathf.Abs(mudanca);
     }
 
     public void DiminuirVelocidade (float mudanca){
-        this.velocidadeDeMovimento -= Mathf.Abs(mudanca); //Musa a velocidade de movimento para menos
+        this.velocidadeDeMovimento -= Mathf.Abs(mudanca);
     }
-
     
-
-
 }
