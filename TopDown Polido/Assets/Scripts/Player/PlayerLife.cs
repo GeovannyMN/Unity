@@ -18,6 +18,9 @@ public class PlayerLife : MonoBehaviour
 
     public bool invulneravel = false;
 
+    [SerializeField]
+    private GameObject menuGameOver;
+
     private void Awake() {
         this.vidaAtualP = this.vidaMaxP; //O inimigo tem a vida atual igual a vida máxima 
         if (barraDeVidaP != null){
@@ -34,11 +37,15 @@ public class PlayerLife : MonoBehaviour
         this.invulneravel = true; //Ativa a invulnerabilidade por 1 segundo
 
         this.barraDeVidaP.VidaAtualDoSlider = this.vidaAtualP; //Atualiza no slider o dano sofrido
-
+        
         if (this.vidaAtualP <= 0){
+            soundFX.playSound(sound.DEATH_PLAYER);
             GameObject.Destroy(this.gameObject); //Player morreu
-            ReiniciarLevel(); //Após 2 segundos, reinicia a fase
-        }else {
+            //ApagaLuzPlayer();
+            MostraMenuGameOver();
+            //ReiniciarLevel(); //Após 2 segundos, reinicia a fase
+        }
+        else {
             StartCoroutine(PiscarSpriteSofreuDano()); //Realiza a animação de dano
         }
     }
@@ -69,6 +76,18 @@ public class PlayerLife : MonoBehaviour
     void ReiniciarLevel ()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void ApagaLuzPlayer()
+    {
+        PlayerMoves.GameOver = true;
+        var luz = FindObjectOfType<PlayerLight>();
+        luz.ApagaLuzParaGameOver();
+    }
+
+    public void MostraMenuGameOver()
+    {
+        menuGameOver.SetActive(true);
     }
 
 }

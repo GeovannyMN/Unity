@@ -49,10 +49,12 @@ public class Door : MonoBehaviour
             }
         }
         //Se a porta está aberta e o player está perto e pressiona a tecla T então
-        if (estaAberta && Input.GetKey(KeyCode.T))
+        if (estaAberta)
         {
             //Teleporte-se para algum outro lugar
-            SceneManager.LoadScene("Nivel Zero");
+      
+            //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            SceneManager.LoadScene("Nivel Um");
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

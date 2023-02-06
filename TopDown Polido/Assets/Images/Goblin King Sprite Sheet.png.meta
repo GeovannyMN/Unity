@@ -1,0 +1,1906 @@
+fileFormatVersion: 2
+guid: fc7dfcab9dd531647b5ff17908430b00
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 638
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4714c3288037b3147b1126b865dae83e
+      internalID: 348448793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 638
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 970e2c76de1924c4f97f51a2de869450
+      internalID: 1182419878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 638
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9236a4db2e8c4b647a42dc403b5cd0b9
+      internalID: 1062912911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 638
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f975e8659147e5d40aa7d4adf0bce529
+      internalID: 1759887157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 572
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6e460edecafca4cbfe87c7f93f825a
+      internalID: 1852407909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 572
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7364a81ff5bc0d4ab8b04f56ab39c2d
+      internalID: 211804433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 572
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbd499cc69915d24a9c31be4a800acc2
+      internalID: 1153759138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 572
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9dc8da418bbcd6e42ae0489d467791fa
+      internalID: -59166437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 572
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96d8895ffeefd974285411760f448e07
+      internalID: 1797878848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 572
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d039a4f75762c844a5de19fc07321d0
+      internalID: 1838391825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5aa75f664a4a9544b8a9df5d30febf30
+      internalID: -1176081663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cd0c4a89b398ea479cad1f9f28d3fb0
+      internalID: -1287813640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb6e6c5c3e5f84e4a837734a562efc22
+      internalID: -818528400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5233cb0ae6af4d04fb4320df977792bd
+      internalID: 296573109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a31291ebedcb4c488363889a09ae70e
+      internalID: 430200220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24ba38281cdbc844493da21204616eec
+      internalID: -381288561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f8a9c7ec0de5244aaadde3d9a155485
+      internalID: -1785679673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 506
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da31580f44fa9e24a9a96a0f0f2f7086
+      internalID: -16145049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a9f75626f32c6f4f8c72917b500e8b4
+      internalID: -1831492299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1300063393016f0458010a65a69bc1a4
+      internalID: -466432937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48b827fffdc25274b9156b1fa8070772
+      internalID: -1532931986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5be5b99984d458143a91d6e1eef771af
+      internalID: 922669088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6464a9c621d19b94db07135c5e6c1a81
+      internalID: -1228411016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89457620d443fdf4b862ede785961c3a
+      internalID: 942186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 863318e39fd4f4e459105561e0d98430
+      internalID: 49880262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d633cb81ba7d454b89530769ecdd524
+      internalID: -1003582198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 751b9ba82799aec45bfe8e4dd3c9d41a
+      internalID: -1472784371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c2f8d76b648f224ea9b097bae4abe95
+      internalID: -2007987287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277c6dc703821a144bf5f7e336e13bcd
+      internalID: 2540589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 440
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b09f3957c4edf394bb80f7f1099738a6
+      internalID: 221343804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6df072080fdb3947b5966e2ae08d9ed
+      internalID: 464238231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9dfcb0dec076ea4882b7f056d28485e
+      internalID: 664669191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8911c33572395604e996089e09ae58f3
+      internalID: -1655108935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 804d982a448b85f428a5c27ab9853d54
+      internalID: -474981315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b55f0065cd3e1b34fa28a3a65428455d
+      internalID: -215935635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5ebaa90cb24a9844b17aeb75dae01b8
+      internalID: -1912616933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bedbf646bd0efa848ba8c0c38834741a
+      internalID: -1121044380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 374
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f5ff788f10242948ba7832504918376
+      internalID: 217943195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8754216083cbd8439d3f0f23457af7d
+      internalID: 42039207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb6df7d0d9fba348a4790bb67c31557
+      internalID: 1464823727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c22db67ae22065d43b3d083505666bbb
+      internalID: 810424405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e50567b9e695c334cb696b5df83ce386
+      internalID: 1758073131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b670f5ea0af8b749be8a58c6e2b8429
+      internalID: 1956426882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66b3d71c3108700478332cea50af7acc
+      internalID: -801949565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b13ac1bfdfd327241b34482bc75aab81
+      internalID: -1557171597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe89367d0b2e2554e9be99769629ad9d
+      internalID: -588075716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2579be3d80400224faa7a5284970d35e
+      internalID: -683682043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee9c18f2ccd54c44c873238837e635dc
+      internalID: 1053855093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de68a1ea104359f4ab2c742b9494f420
+      internalID: 1800931683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 704
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6d232860e772054c8d748b102c10406
+      internalID: -344971355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6f8350ab122e1047b02fc8cc781c084
+      internalID: -1490083946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 832
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae355a016dd6544db1127ae082c8106
+      internalID: -1888196145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 896
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8b6dfef501766488b004715753cf02
+      internalID: -430621661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 308
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4799b62cd05543d409da618890c5dc53
+      internalID: -2041243512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73cb6519c0e75564ab307513cf25d875
+      internalID: -1702018735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 242
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a460013c7731aa478f0373570da4c8d
+      internalID: -613351723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 242
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5cd528628ff59a4586f5f43bc4c632f
+      internalID: 419258998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 242
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 725bc7ccc5410934195c2a86c2d4b7f6
+      internalID: -1878461490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93b2a2801c55e09479c6c0045fe0f040
+      internalID: 603892882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0617f667fa086fc44ba751d40c5bdfdf
+      internalID: 1614408587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a3944beddaa89d4faaf773265381cbe
+      internalID: 190744644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62ff3e7d933929f4a97fb2b630087d8b
+      internalID: -146298434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44e9d5189d5dbef4b934b86c8b91be16
+      internalID: -719337710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16ec7d3e007c9684c899d9cd51dc3c30
+      internalID: 277247572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4387b188e87d414297f687b8e482059
+      internalID: 2036434811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 637235c5ce1c3ba4ea6e51161849c721
+      internalID: -2064763851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad7b42e30da3b6c49b9e78f3e991893a
+      internalID: 586782233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef69a376c2acfb741a054df12e8a24ef
+      internalID: 677929701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 640
+        y: 176
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81ace5e574d04a419f2afbc9d51ef14
+      internalID: 1048929709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 110
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e9367502f93f2b4885c6ed2597b1402
+      internalID: 400387522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 110
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe6755be422d3f409abbe6e53375435
+      internalID: 1466544793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 110
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13f00c4ac3d66b84eadeed8271ba5812
+      internalID: 1538168848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 110
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 497ceeb93855d8c48a5c863762d76dd1
+      internalID: -1934375567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 110
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d453d848a26dbd40ba7c050beb57bfc
+      internalID: -34035037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 110
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8adcf01a36ef7a04c8d5056e79fa63c1
+      internalID: 2112006544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 44
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04876907259e5e94eb4f438a52e88607
+      internalID: 1255813473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 44
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 457085c84f19d45488ac6ad7823ff6e2
+      internalID: 536664880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 44
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac434f906d62df40808198bee9dd064
+      internalID: -828873146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 44
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 737f3bc4969442a459717d0389e3c44e
+      internalID: -1382895493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 44
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 881d80ff5726b8948862d365468f1d60
+      internalID: -37675047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goblin King Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 44
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bfef9c41c70d2a4e88f9e88dfdf4549
+      internalID: 4696551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Goblin King Sprite Sheet_0: 348448793
+      Goblin King Sprite Sheet_19: -466432937
+      Goblin King Sprite Sheet_68: 1048929709
+      Goblin King Sprite Sheet_30: 464238231
+      Goblin King Sprite Sheet_55: -613351723
+      Goblin King Sprite Sheet_45: -588075716
+      Goblin King Sprite Sheet_12: -818528400
+      Goblin King Sprite Sheet_47: 1053855093
+      Goblin King Sprite Sheet_52: -430621661
+      Goblin King Sprite Sheet_7: -59166437
+      Goblin King Sprite Sheet_6: 1153759138
+      Goblin King Sprite Sheet_41: 1758073131
+      Goblin King Sprite Sheet_60: 190744644
+      Goblin King Sprite Sheet_16: -1785679673
+      Goblin King Sprite Sheet_54: -1702018735
+      Goblin King Sprite Sheet_59: 1614408587
+      Goblin King Sprite Sheet_57: -1878461490
+      Goblin King Sprite Sheet_40: 810424405
+      Goblin King Sprite Sheet_25: -1003582198
+      Goblin King Sprite Sheet_31: 664669191
+      Goblin King Sprite Sheet_72: -1934375567
+      Goblin King Sprite Sheet_58: 603892882
+      Goblin King Sprite Sheet_18: -1831492299
+      Goblin King Sprite Sheet_61: -146298434
+      Goblin King Sprite Sheet_10: -1176081663
+      Goblin King Sprite Sheet_20: -1532931986
+      Goblin King Sprite Sheet_9: 1838391825
+      Goblin King Sprite Sheet_26: -1472784371
+      Goblin King Sprite Sheet_50: -1490083946
+      Goblin King Sprite Sheet_38: 42039207
+      Goblin King Sprite Sheet_23: 942186
+      Goblin King Sprite Sheet_56: 419258998
+      Goblin King Sprite Sheet_66: 586782233
+      Goblin King Sprite Sheet_80: 4696551
+      Goblin King Sprite Sheet_32: -1655108935
+      Goblin King Sprite Sheet_36: -1121044380
+      Goblin King Sprite Sheet_64: 2036434811
+      Goblin King Sprite Sheet_33: -474981315
+      Goblin King Sprite Sheet_8: 1797878848
+      Goblin King Sprite Sheet_69: 400387522
+      Goblin King Sprite Sheet_71: 1538168848
+      Goblin King Sprite Sheet_73: -34035037
+      Goblin King Sprite Sheet_75: 1255813473
+      Goblin King Sprite Sheet_78: -1382895493
+      Goblin King Sprite Sheet_74: 2112006544
+      Goblin King Sprite Sheet_5: 211804433
+      Goblin King Sprite Sheet_39: 1464823727
+      Goblin King Sprite Sheet_43: -801949565
+      Goblin King Sprite Sheet_4: 1852407909
+      Goblin King Sprite Sheet_44: -1557171597
+      Goblin King Sprite Sheet_15: -381288561
+      Goblin King Sprite Sheet_76: 536664880
+      Goblin King Sprite Sheet_77: -828873146
+      Goblin King Sprite Sheet_1: 1182419878
+      Goblin King Sprite Sheet_17: -16145049
+      Goblin King Sprite Sheet_48: 1800931683
+      Goblin King Sprite Sheet_51: -1888196145
+      Goblin King Sprite Sheet_22: -1228411016
+      Goblin King Sprite Sheet_27: -2007987287
+      Goblin King Sprite Sheet_53: -2041243512
+      Goblin King Sprite Sheet_63: 277247572
+      Goblin King Sprite Sheet_62: -719337710
+      Goblin King Sprite Sheet_65: -2064763851
+      Goblin King Sprite Sheet_11: -1287813640
+      Goblin King Sprite Sheet_13: 296573109
+      Goblin King Sprite Sheet_14: 430200220
+      Goblin King Sprite Sheet_34: -215935635
+      Goblin King Sprite Sheet_24: 49880262
+      Goblin King Sprite Sheet_28: 2540589
+      Goblin King Sprite Sheet_46: -683682043
+      Goblin King Sprite Sheet_37: 217943195
+      Goblin King Sprite Sheet_49: -344971355
+      Goblin King Sprite Sheet_21: 922669088
+      Goblin King Sprite Sheet_42: 1956426882
+      Goblin King Sprite Sheet_67: 677929701
+      Goblin King Sprite Sheet_35: -1912616933
+      Goblin King Sprite Sheet_79: -37675047
+      Goblin King Sprite Sheet_3: 1759887157
+      Goblin King Sprite Sheet_2: 1062912911
+      Goblin King Sprite Sheet_70: 1466544793
+      Goblin King Sprite Sheet_29: 221343804
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

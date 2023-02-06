@@ -30,6 +30,8 @@ public class PlayerAtack : MonoBehaviour
 
     public Transform pontoDeAtaque;
 
+    public Animator animator;
+
 
     private void Awake() {
         pontoDeAtaque = pontoDeAtaqueDaDireita; //Player começa atacando para a direita
@@ -38,7 +40,10 @@ public class PlayerAtack : MonoBehaviour
     void Update()
     {
         if(Input.GetMouseButtonDown(0)){    //Se apertar o esquerdo do mouse 
-            Atacar();                       //Você ataca
+            soundFX.playSound(sound.ATTACK_PLAYER);
+            animator.SetInteger("Attack", 1);
+            Atacar();           //Você ataca
+            StartCoroutine(waiter());
         }
     }
 
@@ -65,7 +70,6 @@ public class PlayerAtack : MonoBehaviour
     private void Atacar(){
 
         AtualizarDirecaoDeAtaque();
-
         Collider2D colliderInimigo = Physics2D.OverlapCircle(pontoDeAtaque.position, this.raioDeAtaque, this.layersAtacaveis); //Cria a zona de ataque do player
         if (colliderInimigo != null){
             EnemyLife inimigo = colliderInimigo.GetComponent<EnemyLife>(); //Se encontrou um inimigo, descobre quem é
@@ -79,14 +83,29 @@ public class PlayerAtack : MonoBehaviour
     {
         if (this.jogador.direcaoDeMovimento == DirecaoDeMovimento.Direita){ //Se olha para direita, ataca para direita
             pontoDeAtaque = this.pontoDeAtaqueDaDireita;
-        }else if (this.jogador.direcaoDeMovimento == DirecaoDeMovimento.Esquerda){ //Se olha para esquerda, ataca para esquerda
+            animator.SetInteger("AttackDirection", 0);
+        }
+        else if (this.jogador.direcaoDeMovimento == DirecaoDeMovimento.Esquerda){ //Se olha para esquerda, ataca para esquerda
             pontoDeAtaque = this.pontoDeAtaqueDaEsquerda;
+            animator.SetInteger("AttackDirection", 1);
         }
 
         if (this.jogador.direcaoDeMovimento == DirecaoDeMovimento.Cima){ //Se olha para cima, ataca para cima
             pontoDeAtaque = this.pontoDeAtaqueDeCima;
-        }else if (this.jogador.direcaoDeMovimento == DirecaoDeMovimento.Baixo){ //Se olha para baixo, ataca para baixo
-            pontoDeAtaque = this.pontoDeAtaqueDeBaixo;
+            animator.SetInteger("AttackDirection", 2);
         }
+        else if (this.jogador.direcaoDeMovimento == DirecaoDeMovimento.Baixo){ //Se olha para baixo, ataca para baixo
+            pontoDeAtaque = this.pontoDeAtaqueDeBaixo;
+            animator.SetInteger("AttackDirection", 3);
+        }
+    }
+
+    IEnumerator waiter()
+    {
+        //Wait for 1 second
+        yield return new WaitForSeconds(0.75f);
+        animator.SetInteger("Attack", 0);
+
+
     }
 }
